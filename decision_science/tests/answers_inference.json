@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nmedian_age est associé à un effet d'augmentation des crimes.\nComme on peut le voir dans le barh et aussi sur la régression partielle.\n",
+    "T_STAT": "\nt-statisque est composé de t= (coef-(b1)/std err(b1))\ndans ce cas t est inférieur à 1,96 ce qui indique que la régréssion linéaire n'est peut-être pas fiable.\n",
+    "P_VALUE": "\np-value = 0.128 supérieur à 0,05 soit en dehors de l'interval de confiance de 95%\nelle est plus proche de l'interval de confiance à 90% (soit une p-value à 0.10).\nCela indique que la régression linéaire n'est pas forcément significative \ncar la probabilité d'obtenir par hasard un résultat aussi convaincant est élevé.\n",
+    "INCREASE": "\nEn tenant les autres regressors constants, lorsque la part de couple mariés augmente de 1%, \nle nombre d'incident semble diminuer en moyenne de -15729.\n",
+    "LIMITATIONS": "\nde nombreux paramètres sont avec un t score moyen, et une p-value élevé, \nil faudrait nettoyer les variables non significatives avant de pouvoir conclure.\nAussi l'analyse des résidus peut montrer de fortes corrélation notamment entre l'âge et le % de personnes mariés.\n"
+}
